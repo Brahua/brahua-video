@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/modal.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="container" id="container">
+
+        <div class="sidebar">
+            <figure class="containter-logo">
+                <img src="./src/img/logo.png" alt="Brahua video" class="img-logo">
+            </figure>
+            <section class="playlist">
+                <h1 class="title-sidebar">Mi lista de películas</h1>
+                <ul class="list-sidebar">
+                    <li><span>1</span> Lorem ipsum dolor sit amet.</li>
+                    <li><span>2</span> Lorem ipsum dolor sit amet.</li>
+                    <li><span>3</span> Lorem ipsum dolor sit amet.</li>
+                    <li><span>4</span> Lorem ipsum dolor sit amet.</li>
+                    <li><span>5</span> Lorem ipsum dolor sit amet.</li>
+                    <li><span>6</span> Lorem ipsum dolor sit amet.</li>
+                    <li><span>7</span> Lorem ipsum dolor sit amet.</li>
+                    <li><span>8</span> Lorem ipsum dolor sit amet.</li>
+                    <li><span>9</span> Lorem ipsum dolor sit amet.</li>
+                    <li><span>10</span> Lorem ipsum dolor sit amet.</li>
+                </ul>
+            </section>
+            <section class="friends">
+                <h1 class="title-sidebar">Lista de mis amigos</h1>
+                <ul class="list-sidebar">
+                    <li>
+                        <img src="./src/img/friend.png" class="image-friend" alt="friend">
+                        Lorem ipsum dolor sit amet.
+                    </li>
+                    <li>
+                        <img src="./src/img/friend.png" class="image-friend" alt="friend">
+                        Lorem ipsum dolor sit amet.
+                    </li>
+                    <li>
+                        <img src="./src/img/friend.png" class="image-friend" alt="friend">
+                        Lorem ipsum dolor sit amet.
+                    </li>
+                    <li>
+                        <img src="./src/img/friend.png" class="image-friend" alt="friend">
+                        Lorem ipsum dolor sit amet.
+                    </li>
+                    <li>
+                        <img src="./src/img/friend.png" class="image-friend" alt="friend">
+                        Lorem ipsum dolor sit amet.
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="main">
+            <header>
+                <div class="search">
+                    <form action="" id="form">
+                        <input type="text" name="name" placeholder="Buscar">
+                    </form>
+                </div>
+                <div class="profile">
+                    <img src="./src/img/perfil.png" class="img-profile" alt="">
+                    <span>Josue Bravo</span>
+                </div>
+            </header>
+            <section class="content-categories">
+                <div class="category">
+                    <h1 class="title-category">Acción</h1>
+                    <div class="content-movies" id="action">
+                        <img src="./src/img/loader.gif" width="80" height="80" alt="">
+                    </div>
+                </div>
+                <div class="category">
+                    <h1 class="title-category">Drama</h1>
+                    <div class="content-movies" id="drama">
+                        <img src="./src/img/loader.gif" width="80" height="80" alt="">
+                    </div>
+                </div>
+                <div class="category">
+                    <h1 class="title-category">Animations</h1>
+                    <div class="content-movies" id="animation">
+                        <img src="./src/img/loader.gif" width="80" height="80" alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div class="movie-found" id="found">
+
+        </div>
+
+    </section>
+
+    <div class="overlay" id="overlay">
+    </div>
+    <div class="modal" id="modal">
+        <h1>Título de pelicula</h1>
+        <div class="modal-content">
+            <img src="" alt="" width="170" height="256">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione impedit maiores enim alias ex
+                accusantium
+                quasi cum autem, nam, voluptas tenetur laudantium quod! Odit voluptate illo, voluptas vel quia, quae.
+            </p>
+        </div>
+        <div class="modal-buttons">
+            <button class="modal-btn primary" id="hide-modal">Cerrar Modal</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="./src/js/scripts.js"></script>
+</body>
+
+</html>
